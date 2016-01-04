@@ -1,0 +1,10 @@
+CGHS members CRUD
+Generate bank slip for monthly payment
+Register payment
+Register expense
+Financial report
+Events CRUD
+Shere events on Facebook
+Coffee Club integration
+Inventory CRUD
+
