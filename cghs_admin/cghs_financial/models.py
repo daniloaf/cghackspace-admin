@@ -19,7 +19,7 @@ class Expense(models.Model):
         null=False, blank=False, decimal_places=2, max_digits=5)
     description = models.CharField(null=False, blank=False, max_length=50)
     date = models.DateField(null=False, blank=False)
-    tags = models.ManyToManyField(Tag)
+    tags = models.ManyToManyField(Tag, related_name='expenses', null=True)
 
     class Meta:
         verbose_name = "Expense"
